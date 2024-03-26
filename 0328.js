@@ -144,4 +144,7 @@ arr.every((v) => v!==null); // 모든 요소가 null이 아니면 true 반환
 const arr2 = [1,3,5,null];
 console.log(arr2.some((v) => v===null)); // 하나라도 null이면 true 반환
 
-//3.28 수업
+const arr3 = [1,2,3,4,5];
+const arr4 = [6,7,8,9,10];
+const arr5 = [...arr3, ...arr4]; // arr3와 arr4를 합친 배열 생성
+console.log(arr5); // [1,2,3,4,5,6,7,8,9,10] 출력
