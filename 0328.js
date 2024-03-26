@@ -143,3 +143,5 @@ arr.reduce((a,c) => {
 arr.every((v) => v!==null); // 모든 요소가 null이 아니면 true 반환
 const arr2 = [1,3,5,null];
 console.log(arr2.some((v) => v===null)); // 하나라도 null이면 true 반환
+
+//3.28 수업
