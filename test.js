@@ -1,0 +1,1 @@
+const arr = Array(5).fill(1).map((v,i) => i+1);
