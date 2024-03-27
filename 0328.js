@@ -147,4 +147,4 @@ console.log(arr2.some((v) => v===null)); // 하나라도 null이면 true 반환
 const arr3 = [1,2,3,4,5];
 const arr4 = [6,7,8,9,10];
 const arr5 = [...arr3, ...arr4]; // arr3와 arr4를 합친 배열 생성
-console.log(arr5); // [1,2,3,4,5,6,7,8,9,10] 출력
+console.log(arr5); // [1,2,3,4,5,6,7,8,9,10] 출력git push origin master 
